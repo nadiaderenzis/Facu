@@ -1,0 +1,8 @@
+- Scanf no devuelve nada por eso necesita un puntero, con el & accedo a la direccion de memoria.
+--------+-------
+FUNCIONES
+
+Algo q devuelven (tipo - sino devuelve nada void) - nombre - parametros (tipo, nombre del parametro....)
+Si devuelve algo necesito un *return* 
+
+int suma (int a, int b) ---> firma
