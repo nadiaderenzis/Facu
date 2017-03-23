@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489711629 source:d:\nadia\ejercicio_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
