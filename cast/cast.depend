@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490244990 source:c:\users\nderenzis\programacion\facu\cast\main.c
+	<stdio.h>
+	<stdlib.h>
+
