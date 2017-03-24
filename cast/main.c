@@ -3,12 +3,11 @@
 
 int main()
 {
-    int num=10;
+    float num=12.25;
     int i;
 
-    for(i=0;i<num;)
-    {
-        printf("%d",num);
-    }
-        return 0;
+    i=(int)num;
+    return num;
+
+
 }
