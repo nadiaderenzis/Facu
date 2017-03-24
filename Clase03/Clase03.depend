@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1490314139 source:d:\nadia\clase03\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Validaciones.h"
+
+1490313768 source:d:\nadia\clase03\validaciones.c
+
+1490313590 d:\nadia\clase03\validaciones.h
+
