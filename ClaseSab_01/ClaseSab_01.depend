@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490457232 source:c:\users\nderenzis\documents\laboratorio1\facu\clasesab_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
