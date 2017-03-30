@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1490830482 source:d:\nadia\clase05\clase05\clase05.c
+
+1490831682 source:d:\nadia\clase05\clase05\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clase05.h"
+
+1490828598 d:\nadia\clase05\clase05\clase05.h
+
