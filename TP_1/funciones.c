@@ -38,19 +38,19 @@ int factorial (float num)
     resultado=n* factorial(n-1);
     return (resultado);
 }
-int validacion2num(int flag, int n)
+int numeroEsInvalido(int flag, int n)
 {
     if (flag==0)
     {
-        if(n==1)
-        {
-            printf("\nDebe ingresar el 1er operando para realizar el calculo seleccionado: ");
-        }
-        else if(n==2)
-        {
-            printf("\nDebe ingresar el 2er operando para realizar el calculo seleccionado: ");
-        }
+        printf("\nDebe ingresar el operando nro %d para realizar el calculo seleccionado: ",n);
+        return 1;
     }
-
+    else
+        return 0;
 }
-
+float tomarValor()
+{
+    float num;
+    scanf("%f",&num);
+    return num;
+}

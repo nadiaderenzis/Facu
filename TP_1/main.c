@@ -38,20 +38,13 @@ int main()
             flagN2=1;
             break;
         case 3:
-            while(flagN1==0 || flagN2==0)
+            if(numeroEsInvalido(flagN1,1))
             {
-                if(flagN1==0)
-                {
-                    printf("\nDebe ingresar el 1er operando para realizar el calculo seleccionado: ");
-                    scanf("%f",&num1);
-                    flagN2=1;
-                }
-                if(flagN2==0)
-                {
-                    printf("\nDebe ingresar el 2do operando para realizar el calculo seleccionado: ");
-                    scanf("%f",&num2);
-                    flagN2=1;
-                }
+                num1=tomarValor();
+            }
+            if(numeroEsInvalido(flagN2,2))
+            {
+                num2=tomarValor();
             }
             resultado=suma(num1,num2);
             printf("El resultado de la suma es: %.2f\n",resultado);

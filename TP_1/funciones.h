@@ -6,6 +6,6 @@ float suma (float num1, float num2);
 float multiplicacion (float multiplicando, float multiplicador);
 float resta (float minuendo, float sustraendo);
 int factorial (float num);
-int validacion2num(int flag, int n);
-
+int numeroEsInvalido(int flag, int n);
+float tomarValor();
 
