@@ -1,7 +1,7 @@
 float division (float divisor, float dividendo)
 {
     float resultado;
-    resultado=divisor/dividendo;
+    resultado=(float)divisor/dividendo;
     return resultado;
 }
 
@@ -25,32 +25,26 @@ float resta (float minuendo, float sustraendo)
     resultado=minuendo-sustraendo;
     return resultado;
 }
+float todasLasOperaciones (float n1, float n2)
+{
+    int resultado=factorial (n1);
+    printf("\nEl resultado de la division es: %2.f",division(n1,n2));
+    printf("\nEl resultado de la suma es: %2.f",suma (n1,n2));
+    printf("\nEl resultado de la multiplicacion es: %2.f",multiplicacion (n1,n2));
+    printf("\nEl resultado de la resta: %2.f", resta (n1,n2));
+    printf("\nEl factorial del 1er nro es: %d\n",resultado);
+}
 
-int factorial (float num)
+int factorial (int num)
 {
-    int n;
-    int resultado=1;
-    n=(int)num;
-    if(n==1)
+    int resultado;
     {
-        return 1;
+        if(num==1|| num==0)
+        {
+            return 1;
+        }
+        resultado=num* factorial(num-1);
+        return (resultado);
     }
-    resultado=n* factorial(n-1);
-    return (resultado);
 }
-int numeroEsInvalido(int flag, int n)
-{
-    if (flag==0)
-    {
-        printf("\nDebe ingresar el operando nro %d para realizar el calculo seleccionado: ",n);
-        return 1;
-    }
-    else
-        return 0;
-}
-float tomarValor()
-{
-    float num;
-    scanf("%f",&num);
-    return num;
-}
+

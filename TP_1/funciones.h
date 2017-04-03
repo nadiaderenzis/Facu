@@ -5,7 +5,7 @@ float division (float divisor, float dividendo);
 float suma (float num1, float num2);
 float multiplicacion (float multiplicando, float multiplicador);
 float resta (float minuendo, float sustraendo);
-int factorial (float num);
-int numeroEsInvalido(int flag, int n);
-float tomarValor();
+float todasLasOperaciones (float n1, float n2);
+int factorial (int num);
+
 
