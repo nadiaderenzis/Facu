@@ -25,15 +25,6 @@ float resta (float minuendo, float sustraendo)
     resultado=minuendo-sustraendo;
     return resultado;
 }
-float todasLasOperaciones (float n1, float n2)
-{
-    int resultado=factorial (n1);
-    printf("\nEl resultado de la division es: %2.f",division(n1,n2));
-    printf("\nEl resultado de la suma es: %2.f",suma (n1,n2));
-    printf("\nEl resultado de la multiplicacion es: %2.f",multiplicacion (n1,n2));
-    printf("\nEl resultado de la resta: %2.f", resta (n1,n2));
-    printf("\nEl factorial del 1er nro es: %d\n",resultado);
-}
 
 int factorial (int num)
 {
