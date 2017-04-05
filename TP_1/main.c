@@ -29,13 +29,13 @@ int main()
 
     do
     {
-        if(opcion==9)
-            break;
-        while(opcion<0 || opcion>9)
+        while(opcion<=0 || opcion>9)
         {
             printf("Opcion invalida, elija una opcion entre el 1 y el 8, o 9 para salir: ");
             scanf("%d",&opcion);
         }
+        if(opcion==9)
+            break;
 
         switch(opcion)
         {
@@ -111,6 +111,11 @@ int main()
             printf("El resultado de la multiplicacion es: %.2f\n",resultado);
             break;
         case 7:
+             if(numeroEsInvalido(flagN1,1))
+            {
+                num1=tomarValor();
+                flagN1=1;
+            }
             if(esEntero(num1)==1)
             {
                 resultadoFactorial=factorial(num1);
