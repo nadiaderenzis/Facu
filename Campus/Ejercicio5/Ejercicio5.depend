@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1492374103 source:c:\users\nderenzis\desktop\campus\ejercicio4\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1492374103 source:c:\users\nderenzis\desktop\campus\ejercicio5\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1492379071 source:c:\users\nderenzis\desktop\campus\ejercicio5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1492373779 c:\users\nderenzis\desktop\campus\ejercicio5\utn.h
+

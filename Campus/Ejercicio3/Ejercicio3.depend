@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1492369979 source:c:\users\nderenzis\desktop\campus\ejercicio3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcion.h"
+
+1492369629 c:\users\nderenzis\desktop\campus\ejercicio3\funcion.h
+
+1492369751 source:c:\users\nderenzis\desktop\campus\ejercicio3\funcion.c
+
